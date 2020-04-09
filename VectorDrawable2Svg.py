@@ -72,7 +72,7 @@ def convertVd(vdFilePath):
 	convertPaths(vdNode,svgNode,svgXml)
 
 	# write xml to file
-	svgXml.writexml(open(vdFilePath + '.svg', 'w'),indent="",addindent="  ",newl='\n')
+	svgXml.writexml(open(vdFilePath[:-4] + '.svg', 'w'),indent="",addindent="  ",newl='\n')
 	
 # script begin
 if len(sys.argv)>1:
