@@ -5,7 +5,7 @@ Based on the [works of AlessandroLucchet](https://gitlab.com/AlessandroLucchet/V
 
 Additional improvement and modifications have been created
 
-This project has now been exported to Github as well
+Originally a fork in [Gitlab](https://gitlab.com/lalugue/VectorDrawable2Svg), this project has now been exported to Github as well. Future modifications and improvements will be added in this Github repository
 
 ## Usage
 Drop one or more android vector drawable onto this script to convert them to svg format.
