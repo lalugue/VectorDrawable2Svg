@@ -31,9 +31,9 @@ def convertPaths(vdContainer,svgContainer,svgXml):
 				svgPath.attributes['stroke-width'] = vdPath.attributes['android:strokeWidth'].value
 			if vdPath.hasAttribute('android:strokeColor'):
 				svgPath.attributes['stroke'] = vdPath.attributes['android:strokeColor'].value
-			if vdPath.hasAttribute('android:strokeColor'):
+			if vdPath.hasAttribute('android:fillAlpha'):
 				svgPath.attributes['fill-opacity'] = vdPath.attributes['android:fillAlpha'].value
-			if vdPath.hasAttribute('android:strokeColor'):
+			if vdPath.hasAttribute('android:strokeAlpha'):
 				svgPath.attributes['stroke-opacity'] = vdPath.attributes['android:strokeAlpha'].value
 			svgContainer.appendChild(svgPath);
 		
