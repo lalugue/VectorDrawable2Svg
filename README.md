@@ -1,16 +1,13 @@
 # VectorDrawable2Svg
-This script converts your VectorDrawable to a Svg
 
-Based on the [works of AlessandroLucchet](https://gitlab.com/AlessandroLucchet/VectorDrawable2Svg)
+This script converts a VectorDrawable file into an SVG file
 
-Additional improvement and modifications have been created
+A fork of [AlessandroLucchet's script](https://gitlab.com/AlessandroLucchet/VectorDrawable2Svg) with additional improvements and modifications
 
-Originally a fork in [Gitlab](https://gitlab.com/lalugue/VectorDrawable2Svg), this project has now been exported to Github as well. Future modifications and improvements will be added in this Github repository
+Originally forked in [Gitlab](https://gitlab.com/lalugue/VectorDrawable2Svg), this project has now been exported to Github! Future modifications and improvements will be added in this Github repository
 
-## Usage
-Drop one or more android vector drawable onto this script to convert them to svg format.
+## Usage and Example
 
-## Example
 If one wants to convert a file named foo.xml, place the file in the same folder as VectorDrawable2Svg.py
 
 Then, run the following command in the terminal/command prompt
@@ -19,9 +16,10 @@ Then, run the following command in the terminal/command prompt
 python VectorDrawable2Svg.py foo.xml
 ```
 
-A file named foo.svg will be created
+The script will then convert the .xml file and create a file named foo.svg
 
-## Improvements
-This script supports only a litte amount of attributes.
+## Todos/Improvements
 
-Suggestions (or merge request) for improvement are welcome
+- Add more attributes
+
+- Merge requests and forks are welcome

@@ -1,9 +1,11 @@
 """
 VectorDrawable2Svg
-This script convert your VectorDrawable to a Svg
-Author: Alessandro Lucchet
+This script converts a VectorDrawable into an SVG file
+Authors: Alessandro Lucchet, lalugue
 
-Usage: drop one or more vector drawable onto this script to convert them to svg format
+Usage: Place an xml file in the same folder as this script, then run using:
+python VectorDrawable2Svg.py <yourFile>.xml
+
 """
 
 from xml.dom.minidom import *
